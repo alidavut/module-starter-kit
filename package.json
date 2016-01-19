@@ -1,0 +1,24 @@
+{
+  "name": "module-starter-kit",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "test": "gulp lint && mocha test/src/**/*.js",
+    "prepublish": "gulp publish",
+    "postpublish": "gulp clean"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "chai": "^3.4.1",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-eslint": "^1.1.1",
+    "mocha": "^2.3.4"
+  }
+}
